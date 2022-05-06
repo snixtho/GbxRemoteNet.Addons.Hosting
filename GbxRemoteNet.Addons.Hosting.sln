@@ -2,6 +2,12 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GbxRemoteNet.Addons.Hosting", "GbxRemoteNet.Addons.Hosting\GbxRemoteNet.Addons.Hosting.csproj", "{0B4128F9-E223-4987-B12C-213BDC5BE23E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{F05869C1-2B2D-443F-9D10-E63A92EC723A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BasicExample", "Samples\BasicExample", "{02288315-42FC-4D5A-B8A8-FFBB9C08A935}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicExample", "Samples\BasicExample\BasicExample.csproj", "{861F8081-3827-4C4B-8D94-1519C247258B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +18,13 @@ Global
 		{0B4128F9-E223-4987-B12C-213BDC5BE23E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B4128F9-E223-4987-B12C-213BDC5BE23E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B4128F9-E223-4987-B12C-213BDC5BE23E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{861F8081-3827-4C4B-8D94-1519C247258B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{861F8081-3827-4C4B-8D94-1519C247258B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{861F8081-3827-4C4B-8D94-1519C247258B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{861F8081-3827-4C4B-8D94-1519C247258B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{02288315-42FC-4D5A-B8A8-FFBB9C08A935} = {F05869C1-2B2D-443F-9D10-E63A92EC723A}
+		{861F8081-3827-4C4B-8D94-1519C247258B} = {02288315-42FC-4D5A-B8A8-FFBB9C08A935}
 	EndGlobalSection
 EndGlobal
