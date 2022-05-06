@@ -13,6 +13,7 @@
         <RepositoryUrl>https://github.com/snixtho/GbxRemoteNet.Addons.Hosting</RepositoryUrl>
         <RepositoryType>Git</RepositoryType>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageVersion>1.0.1</PackageVersion>
     </PropertyGroup>
 
     <ItemGroup>
