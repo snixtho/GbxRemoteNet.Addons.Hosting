@@ -4,6 +4,15 @@
         <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <AssemblyVersion>1.0</AssemblyVersion>
+        <FileVersion>1.0</FileVersion>
+        <Title>GbxRemoteNet.Addons.Hosting</Title>
+        <Authors>snixtho</Authors>
+        <Description>Hosting extensions for GbxRemote.NET</Description>
+        <PackageProjectUrl>https://github.com/snixtho/GbxRemoteNet.Addons.Hosting</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/snixtho/GbxRemoteNet.Addons.Hosting</RepositoryUrl>
+        <RepositoryType>Git</RepositoryType>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     </PropertyGroup>
 
     <ItemGroup>
