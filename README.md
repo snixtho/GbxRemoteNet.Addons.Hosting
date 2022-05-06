@@ -16,10 +16,10 @@ In the host builder call the `UseGbxRemote` extension method to configure GbxRem
 .UseGbxRemote((context, config) =>
 {
     // most of these options have optional values set
-    config.Host = context.Configuration["Host"];
-    config.Port = context.Configuration.GetValue<int>("Port");
-    config.Login = context.Configuration["Login"];
-    config.Password = context.Configuration["Password"];
+    config.Host = "127.0.0.1";
+    config.Port = 5000;
+    config.Login = "SuperAdmin";
+    config.Password = "SuperAdmin";
 
     config.ConnectionRetries = 3;
 })
