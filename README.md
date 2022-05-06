@@ -24,3 +24,6 @@ In the host builder call the `UseGbxRemote` extension method to configure GbxRem
         config.ConnectionRetries = 3;
     })
 ```
+
+## Examples
+Look in the [Samples](Samples/) directory for examples on the usage.
