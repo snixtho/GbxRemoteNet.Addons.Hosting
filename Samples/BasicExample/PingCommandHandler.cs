@@ -1,5 +1,6 @@
 ﻿using GbxRemoteNet;
 using GbxRemoteNet.Addons.Hosting;
+using GbxRemoteNet.Events;
 using Microsoft.Extensions.Logging;
 
 namespace BasicExample;
@@ -16,9 +17,9 @@ public class PingCommandHandler : GbxRemoteServiceBase
         return Task.CompletedTask;
     }
 
-    private async Task ClientOnOnPlayerChat(int playeruid, string login, string text, bool isregisteredcmd)
+    private async Task ClientOnOnPlayerChat(object sender, PlayerChatEventArgs e)
     {
-        if (text.Equals("/ping", StringComparison.InvariantCultureIgnoreCase))
+        if (e.Text.Equals("/ping", StringComparison.InvariantCultureIgnoreCase))
         {
             await Client.ChatSendServerMessageAsync("Pong!");
         }
