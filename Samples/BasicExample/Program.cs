@@ -1,5 +1,5 @@
 ﻿using BasicExample;
-using FSFamBot.Hosting.GbxRemote;
+using GbxRemoteNet.Addons.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;

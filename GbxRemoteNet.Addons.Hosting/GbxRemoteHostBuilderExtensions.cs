@@ -1,9 +1,7 @@
-﻿using GbxRemoteNet;
-using GbxRemoteNet.Addons.Hosting;
-using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace FSFamBot.Hosting.GbxRemote;
+namespace GbxRemoteNet.Addons.Hosting;
 
 public static class GbxRemoteHostBuilderExtensions
 {

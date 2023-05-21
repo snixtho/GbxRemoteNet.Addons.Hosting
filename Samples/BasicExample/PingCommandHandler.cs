@@ -17,7 +17,7 @@ public class PingCommandHandler : GbxRemoteServiceBase
         return Task.CompletedTask;
     }
 
-    private async Task ClientOnOnPlayerChat(object sender, PlayerChatEventArgs e)
+    private async Task ClientOnOnPlayerChat(object sender, PlayerChatGbxEventArgs e)
     {
         if (e.Text.Equals("/ping", StringComparison.InvariantCultureIgnoreCase))
         {

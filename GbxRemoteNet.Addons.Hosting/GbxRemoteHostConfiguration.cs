@@ -13,5 +13,5 @@ public class GbxRemoteHostConfiguration
     public int ConnectionRetryTimeout { get; set; } = 1000;
     public bool InvokeEventOnModeScriptMethodResponse { get; set; } = false;
 
-    public CallbackType CallbacksEnabled { get; set; } = CallbackType.ModeScript | CallbackType.Checkpoints;
+    public GbxCallbackType CallbacksEnabled { get; set; } = GbxCallbackType.ModeScript | GbxCallbackType.Checkpoints;
 }
